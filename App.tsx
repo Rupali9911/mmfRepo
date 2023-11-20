@@ -17,8 +17,7 @@ import {
 import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
-import { NavigationContainer } from '@react-navigation/native';
-import RootStack from './src/Screens/RootScreen';
+import RootScreen from './src/screens';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -28,9 +27,7 @@ function App(): JSX.Element {
   };
 
   return (
-    <NavigationContainer>
-      <RootStack />
-    </NavigationContainer>
+    <RootScreen />
   );
 }
 
