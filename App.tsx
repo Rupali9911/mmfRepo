@@ -22,9 +22,9 @@ import RootScreen from './src/screens';
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+  // const backgroundStyle = {
+  //   backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+  // };
 
   return (
     <RootScreen />
